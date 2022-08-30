@@ -37,7 +37,7 @@ int (*get_builtin(char *command))(char **args, char **front)
  * shellby_exit - Causes normal process termination
  *                for the shellby shell.
  * @args: An array of arguments containing the exit value.
- * @front: A double pointer to the beginning of args.
+ * @front: A double pointer to the beginning of args
  *
  * Return: If there are no arguments - -3.
  *         If the given exit value is invalid - 2.
